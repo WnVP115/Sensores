@@ -1,0 +1,29 @@
+.bodyMain{
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxPrin{
+    width: 500px;
+    height: 500px;
+    margin: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerPrin{
+    font-size: 45px;
+    color: #ffffff;
+}
+
+.circle{
+    background-color: #ff0000;
+    height: 5rem;
+    width: 5rem;    
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
